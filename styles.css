@@ -1,0 +1,38 @@
+/* "большая" таблица */
+table.big_table {
+    border-collapse: collapse;
+}
+
+/* все ячейки */
+th, td {
+    padding: 1px;
+    border: 1px solid black;
+}
+
+/* только ячейки-заголовки */
+th {
+    text-align: center;
+}
+
+/* только "рядовые" ячейки */
+/* выравнивание текста */
+td.left {
+    text-align: left;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.right {
+    text-align: right;
+}
+
+/* цвет фона */
+td.red {
+    background-color: red;
+}
+
+td.green {
+    background-color: green;
+}
