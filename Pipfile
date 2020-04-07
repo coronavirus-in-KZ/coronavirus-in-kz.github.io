@@ -7,8 +7,12 @@ verify_ssl = true
 black = "*"
 flake8 = "*"
 mypy = "*"
+jupyter = "*"
 
 [packages]
+yattag = "*"
+pandas = "*"
+xlrd = "*"
 
 [requires]
 python_version = "3.8"
