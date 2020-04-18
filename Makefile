@@ -24,7 +24,7 @@ enter-data-in-dev:
 html:
 	pipenv run python generate_readme.py
 
-view:
+view-html:
 	xdg-open index.html
 
 dev-commit-push:
