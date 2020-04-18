@@ -24,6 +24,9 @@ enter-data-in-dev:
 html:
 	pipenv run python generate_readme.py
 
+view:
+	xdg-open index.html
+
 dev-commit-push:
 # делает commit в ветке develop
 	git checkout develop
