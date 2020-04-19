@@ -21,11 +21,12 @@ enter-data-in-dev:
 	git checkout develop
 	xdg-open coronavirus.xlsx
 
-html:
+html-view:
 	pipenv run python generate_readme.py
-
-view-html:
 	xdg-open index.html
+
+# view-html:
+# 	xdg-open index.html
 
 dev-commit-push:
 # делает commit в ветке develop
